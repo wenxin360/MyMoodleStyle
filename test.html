@@ -11,9 +11,21 @@
 <body>
 <div>
     <!-- HTML !-->
+<button class="button-64" role="button" target="_blank" onclick=" window.open('https://moodle.rose-hulman.edu/course/view.php?id=89548','_blank')"><span class="text">CSSE230</span></button>
+<br>
 <button class="button-64" role="button" target="_blank" onclick=" window.open('https://moodle.rose-hulman.edu/course/view.php?id=89788','_blank')"><span class="text">CSSE290</span></button>
+<br>
+<button class="button-64" role="button" target="_blank" onclick=" window.open('https://moodle.rose-hulman.edu/course/view.php?id=89554','_blank')"><span class="text">CSSE332</span></button>
+<br>
+<button class="button-64" role="button" target="_blank" onclick=" window.open('https://moodle.rose-hulman.edu/course/view.php?id=90379','_blank')"><span class="text">CSSE333</span></button>
+<br>
+<button class="button-63" role="button" target="_blank" onclick=" window.open('https://moodle.rose-hulman.edu/course/view.php?id=89578','_blank')"><span class="text">MA221</span></button>
+<br>
 
-<style>.button-64 {
+</div>
+
+<style>
+.button-64 {
     align-items: center;
     background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
     border: 0;
@@ -60,9 +72,58 @@
       font-size: 24px;
       min-width: 196px;
     }
-  }</style>
+  }
+  </style>
 
-</div>
-<button type="button" class="btn btn-lg btn-default">Default</button>
-</body>
+<style>
+.button-63 {
+    align-items: center;
+    background-image: linear-gradient(144deg,#66f079, #33f7d6 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(70, 255, 147, 0.856) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+  .button-63:active,
+  .button-63:hover {
+    outline: 0;
+  }
+  
+  .button-63 span {
+    background-color: rgb(27, 128, 60);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+  }
+  
+  .button-63:hover span {
+    background: none;
+  }
+  
+  @media (min-width: 768px) {
+    .button-63 {
+      font-size: 24px;
+      min-width: 196px;
+    }
+  }
+</style>
+
 </html>
